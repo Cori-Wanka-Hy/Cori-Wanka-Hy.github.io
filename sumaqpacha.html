@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <title>Sumaq Paccha </title>
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet" />
+  <link href="css/product.css" rel="stylesheet" />
+  <link href="css/responsive.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="hero_area sub_pages">
+    <header class="header_section">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg custom_nav-container pt-3">
+          <a class="navbar-brand" href="index.html">
+            <img src="images/Ilustración.png" alt="" /><span>
+              CoriWanka
+            </span>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
+              <ul class="navbar-nav  ">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="tiendas.html">Tiendas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="service.html"> Servicios</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contactanos</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
+
+              </form>
+            </div>
+            <div class="quote_btn-container ml-0 ml-lg-4 d-flex justify-content-center">
+              <a href="">
+
+              </a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+  </div>
+
+  <section class="info container">
+    <div class="info-img">
+      <img src="images/pooolooos.jpg" alt="">
+    </div>
+    <div class="info-txt">
+      <h2>SUMAQ PACHA</h2>
+      <p>Este emprendimiento surge con el propósito de promover la artesanía en Huancayo, buscando una nueva forma de expresión cultural. Aunque lo tradicional se asocia con tejidos, la idea es innovar llevando los estampados inspirados en la riqueza cultural del Perú a polos modernos. Así, no solo se da a conocer la diversidad de las culturas peruanas, sino que también se renueva y moderniza la esencia artesanal en la feria de Huancayo.
+      </p>
+      <a href="https://api.whatsapp.com/send/?phone=51906548557&text&type=phone_number&app_absent=0" class="custom_dark-btn">Contactanos</a>
+    </div>
+  </section>
+
+  <main id="main">
+    <h2 class="titulo-seccion" id="titulo-seccion">Todos nuestros productos</h2>
+    <div class="category-selector">
+      <label for="category">Selecciona una categoría:</label>
+      <select id="category" onchange="filterItems()">
+        <option value="all">Todas</option>
+        <option value="Bonsai"></option>
+        <option value="Flores"></option>
+        <option value="accessories"></option>
+      </select>
+    </div>
+    <div id="product-grid" class="grid">
+      <div class="item" data-category="Bonsai">
+        <div class="producto" id="">
+          <img src="productos/polo1.jpg" alt="" class="producto-imagen">
+          <div class="producto-detalles">
+            <h3 class="producto-titulo"> Producto 1 </h3>
+            <p class="producto-precio"><span class="descuento"></span></p>
+            <p class="producto-tipo-envio"></p>
+          </div>
+        </div>
+      </div>
+      <div class="item" data-category="Bonsai">
+        <div class="producto" id="celular-01">
+          <img src="productos/polo2.jpg" alt="" class="producto-imagen">
+          <div class="producto-detalles">
+            <h3 class="producto-titulo"> Producto 2 </h3>
+            <p class="producto-precio"><span class="descuento"></span></p>
+            <p class="producto-tipo-envio"></p>
+          </div>
+        </div>
+      </div>
+      <div class="item" data-category="Bonsai">
+        <div class="producto" id="celular-01">
+          <img src="productos/polo3.jpg" alt="" class="producto-imagen">
+          <div class="producto-detalles">
+            <h3 class="producto-titulo"> Producto 3</h3>
+            <p class="producto-precio"><span class="descuento"></span></p>
+            <p class="producto-tipo-envio"></p>
+          </div>
+        </div>
+      </div>
+      <div class="item" data-category="Bonsai">
+        <div class="producto" id="celular-01">
+          <img src="productos/polo4.jpg" alt="" class="producto-imagen">
+          <div class="producto-detalles">
+            <h3 class="producto-titulo"> Producto 4 </h3>
+            <p class="producto-precio"><span class="descuento"></span></p>
+            <p class="producto-tipo-envio"></p>
+          </div>
+        </div>
+      </div>
+      <div class="item" data-category="Bonsai">
+        <div class="producto" id="celular-01">
+          <img src="productos/polo5.jpg" alt="" class="producto-imagen">
+          <div class="producto-detalles">
+            <h3 class="producto-titulo"> Producto 5 </h3>
+            <p class="producto-precio"><span class="descuento"></span></p>
+            <p class="producto-tipo-envio"></p>
+          </div>
+        </div>
+      </div>
+      <div class="item" data-category="Bonsai">
+        <div class="producto" id="celular-01">
+          <img src="productos/polo6.jpg" alt="" class="producto-imagen">
+          <div class="producto-detalles">
+            <h3 class="producto-titulo"> Producto 6 </h3>
+            <p class="producto-precio"><span class="descuento"></span></p>
+            <p class="producto-tipo-envio"></p>
+          </div>
+        </div>
+      </div>
+      <div class="item" data-category="Bonsai">
+        <div class="producto" id="celular-01">
+          <img src="productos/polo8.jpg" alt="" class="producto-imagen">
+          <div class="producto-detalles">
+            <h3 class="producto-titulo"> Producto 7</h3>
+            <p class="producto-precio"><span class="descuento"></span></p>
+            <p class="producto-tipo-envio"></p>
+          </div>
+        </div>
+      </div>
+      <div class="item" data-category="Bonsai">
+        <div class="producto" id="celular-01">
+          <img src="productos/polo9.jpg" alt="" class="producto-imagen">
+          <div class="producto-detalles">
+            <h3 class="producto-titulo"> Producto 8 </h3>
+            <p class="producto-precio"><span class="descuento"></span></p>
+            <p class="producto-tipo-envio"></p>
+          </div>
+        </div>
+      </div>
+      <div class="item" data-category="Bonsai">
+        <div class="producto" id="celular-01">
+          <img src="productos/polo10.jpg" alt="" class="producto-imagen">
+          <div class="producto-detalles">
+            <h3 class="producto-titulo"> Producto 9 </h3>
+            <p class="producto-precio"><span class="descuento"></span></p>
+            <p class="producto-tipo-envio"></p>
+          </div>
+        </div>
+      </div>
+      <div class="item" data-category="Bonsai">
+        <div class="producto" id="celular-01">
+          <img src="productos/polo11.jpg" alt="" class="producto-imagen">
+          <div class="producto-detalles">
+            <h3 class="producto-titulo"> Producto 10 </h3>
+            <p class="producto-precio"><span class="descuento"></span></p>
+            <p class="producto-tipo-envio"></p>
+          </div>
+        </div>
+      </div>
+      <div class="item" data-category="Bonsai">
+        <div class="producto" id="celular-01">
+          <img src="productos/polo12.jpg" alt="" class="producto-imagen">
+          <div class="producto-detalles">
+            <h3 class="producto-titulo"> Producto 11 </h3>
+            <p class="producto-precio"><span class="descuento"></span></p>
+            <p class="producto-tipo-envio"></p>
+          </div>
+        </div>
+      </div>
+      <div class="item" data-category="Bonsai">
+        <div class="producto" id="celular-01">
+          <img src="productos/polo13.jpg" alt="" class="producto-imagen">
+          <div class="producto-detalles">
+            <h3 class="producto-titulo"> Producto 12 </h3>
+            <p class="producto-precio"><span class="descuento"></span></p>
+            <p class="producto-tipo-envio"></p>
+          </div>
+        </div>
+      </div>
+      <div class="item" data-category="Bonsai">
+        <div class="producto" id="celular-01">
+          <img src="productos/polo14.jpg" alt="" class="producto-imagen">
+          <div class="producto-detalles">
+            <h3 class="producto-titulo"> Producto 13 </h3>
+            <p class="producto-precio"><span class="descuento"></span></p>
+            <p class="producto-tipo-envio"></p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="item" data-category="Bonsai">
+        <div class="producto" id="celular-01">
+          <img src="productos/polo16.jpg" alt="" class="producto-imagen">
+          <div class="producto-detalles">
+            <h3 class="producto-titulo"> Producto 14 </h3>
+            <p class="producto-precio"><span class="descuento"></span></p>
+            <p class="producto-tipo-envio"></p>
+          </div>
+        </div>
+      </div>
+      
+
+      
+  </main>
+
+  <footer class="footer"></footer>
+
+
+
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+
+  <script>
+
+    function initMap() {
+      var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 11,
+        center: {
+          lat: 40.645037,
+          lng: -73.880224
+        },
+      });
+
+      var image = 'images/maps-and-flags.png';
+      var beachMarker = new google.maps.Marker({
+        position: {
+          lat: 40.645037,
+          lng: -73.880224
+        },
+        map: map,
+        icon: image
+      });
+    }
+  </script>
+
+  <script>
+    function filterItems() {
+      const selectedCategory = document.getElementById('category').value;
+      const items = document.querySelectorAll('.item');
+
+      items.forEach(item => {
+        if (selectedCategory === 'all' || item.getAttribute('data-category') === selectedCategory) {
+          item.style.display = 'block';
+        } else {
+          item.style.display = 'none';
+        }
+      });
+    }
+  </script>
+
+</body>
+
+</html>
