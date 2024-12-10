@@ -697,7 +697,6 @@ body {
   .present {
     display: grid;
     place-items: center;
-    padding-left: 20px;
     height: auto;
     
   }
