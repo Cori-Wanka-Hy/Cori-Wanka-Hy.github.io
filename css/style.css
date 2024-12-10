@@ -698,6 +698,7 @@ body {
     display: grid;
     place-items: center;
     height: auto;
+    padding-left: 10px;
     
   }
 
